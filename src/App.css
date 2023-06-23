@@ -1,0 +1,88 @@
+App {
+  text-align: center;
+}
+
+h1 {
+  margin-top: 20px;
+}
+
+.parking-lot {
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.small-vehicle-section,
+.big-vehicle-section {
+  margin-right: 20px;
+}
+
+/* .parking-slot {
+  width: 80px;
+  height: 80px;
+  border: 1px solid black;
+  display: flex;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin: 5px;
+} */
+h2{
+  display: flex;
+}
+
+.parking-slot.booked {
+  background-color: rgb(103, 250, 34);
+}
+
+.parking-lot {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.small-vehicle-section,
+.big-vehicle-section {
+  flex: 1;
+  margin-right: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.parking-slot {
+  width: 80px;
+  height: 80px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.parking-slot.booked {
+  background-color: gray;
+}
+
+
+.booking-screen {
+  margin-top: 30px;
+}
+
+.booking-screen ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.booking-screen li {
+  margin-bottom: 10px;
+}
+
+.dashboard {
+  margin-top: 30px;
+}
+
+.total-collected-amount {
+  font-size: 18px;
+  margin-top: 10px;
+}
